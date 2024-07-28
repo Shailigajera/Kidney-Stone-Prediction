@@ -1,0 +1,1 @@
+This project uses a logistic regression model to predict the likelihood of kidney stones based on patient data. Built with Python and deployed using Streamlit, the app provides real-time predictions through an intuitive web interface. To run the app locally, install the required libraries and execute streamlit run app.py.
