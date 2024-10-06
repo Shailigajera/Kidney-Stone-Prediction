@@ -19,8 +19,9 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
+
 # Load the dataset
-df = pd.read_csv("Data/Kidney Stone Detection.csv")
+df = pd.read_csv("Data\Kidney Stone Detection.csv")
 
 # Split the data into features (X) and target (y)
 X = df.drop("target", axis=1)
