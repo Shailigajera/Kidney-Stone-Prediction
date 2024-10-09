@@ -5,7 +5,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 import numpy as np
 
-# Set the title and background image
 st.title("Kidney Stone Prediction")
 st.markdown(
     """
@@ -20,7 +19,6 @@ st.markdown(
 )
 
 
-# Load the dataset
 df = pd.read_csv("Data\Kidney Stone Detection.csv")
 
 # Split the data into features (X) and target (y)
